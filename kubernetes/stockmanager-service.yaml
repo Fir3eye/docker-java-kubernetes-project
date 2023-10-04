@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: stockmanager
-        image: thetips4you/stockmanager:latest
+        image: fir3eye/stockmanager:latest
         ports:
         - containerPort: 8030
         livenessProbe:
